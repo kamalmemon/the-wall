@@ -6,7 +6,7 @@ A minimalist guestbook where visitors pick a color and leave a message. Each ent
 
 ## Features
 
-- **Visitor tracking** — Each visitor gets a unique number
+- **Visitor counter** — Each visitor gets a unique number
 - **Color picker** — Drag to select from a gradient
 - **Hero mosaic** — The visitor count tile shows colors picked by visitors
 - **Mobile responsive**
