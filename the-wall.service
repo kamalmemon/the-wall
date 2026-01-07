@@ -1,0 +1,15 @@
+[Unit]
+Description=The Wall guestbook
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+WorkingDirectory=/opt/the-wall
+ExecStart=/opt/the-wall/the-wall
+Restart=always
+Environment=PORT=8000
+Environment=DB_PATH=/opt/the-wall/wall.db
+
+[Install]
+WantedBy=multi-user.target

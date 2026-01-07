@@ -1,0 +1,12 @@
+# Binary
+the-wall
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# IDE
+.idea/
+.vscode/
+*.swp
